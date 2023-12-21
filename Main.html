@@ -1,0 +1,76 @@
+<html>
+   <head>
+<title> Accounting Website</title>
+<link rel ="stylesheet" href="Style.css">
+   </head>
+<body>
+  <div class="container">
+
+   <script>
+      window.addEventListener('resize', function() {
+          adjustFontSize();
+      });
+
+      function adjustFontSize() {
+          var screenWidth = window.innerWidth;
+
+          // Adjust font size based on screen width
+          var heading = document.querySelector('.content h1');
+          if (screenWidth < 768) {
+              heading.style.fontSize = '30px';
+          } else {
+              heading.style.fontSize = '60px';
+          }
+      }
+
+      // Initial adjustment on page load
+      adjustFontSize();
+  </script>
+
+  <div class="navbar">
+  <img src="images/ccs.png" class="logo">
+<nav>
+  <ul>
+    <li><a href="journalizing.html">Journalizing</a></li>
+    <li><a href="postingledger.html">Posting to the Ledger</a></li>
+    <li><a href="trialbalance.html">Trial Balance</a></li>
+    <li><a href="adjusting.html" >Adjusting Entries</a></li>
+    <li><a href="worksheets.html"class="btn">Worksheets</a></li>
+  </ul>
+
+
+</nav>
+  </div>
+
+<div class="content">
+   <H1>Welcome to our <BR> Accounting Website</H1>
+   <h3>MEMBERS:</h3>
+   <p>Amama,Caharodien</p>
+   <p>Auman, Ernest</p>
+   <p>Dura, May - Ann</p>
+   <p>Sancija,John Christian</p>
+   <p>Andre Lance Gornez</p>
+   <p>   ‎   </p>
+
+    <h4>Problem #7</h4>
+    <p>   ‎   </p>
+    <p>Edgar Detoya, tax consultant, began his practice on December 1, 2022. The
+      transactions of the firm are as follows:</p>
+      <P>Dec. 1 Detoya invested P150,000 in the firm.</P>
+      <p>2.Paid rent for December to Recoletos Realty, P8,000.</p>
+      <p>2.Purchased supplies on account, P7,200.</p>
+      <p>3.Acquired P75,000 of office equipment, paying P37,000 down with the balance due in 30 day</p>
+      <p>8.Paid P7,200 on account for supplies purchased.</p>
+      <p>14.Paid assistant's salaries for two weeks, P6,000.</p>
+      <p>20.Performed consulting services for cash, P20,000.</p>
+      <p>28.Paid assistant's salaries for two weeks, P6,000.</p>
+      <p>30.Billed clients for December consulting services, P48,000</p>
+      <p>31.Detoya withdrew P12,000 from the business.</p>
+
+      
+      </div>
+</div>
+
+  </div>
+</body>
+</html>
